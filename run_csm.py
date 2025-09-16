@@ -82,13 +82,15 @@ def main():
         generator.sample_rate
     )
 
-    # Generate conversation
+    #Generate conversation
     conversation = [
-        {"text": "Hey how are you doing?", "speaker_id": 0},
-        {"text": "Pretty good, pretty good. How about you?", "speaker_id": 1},
-        {"text": "I'm great! So happy to be speaking with you today.", "speaker_id": 0},
-        {"text": "Me too! This is some cool stuff, isn't it?", "speaker_id": 1}
+        {"text": "How are you?", "speaker_id": 0},
+        {"text": "ok, what about you?", "speaker_id": 1},
+        {"text": "I am fine too, thanks.", "speaker_id": 0},
+        {"text": "Good to know that! ?", "speaker_id": 1}
     ]
+
+
 
     # Generate each utterance
     generated_segments = []
@@ -115,3 +117,6 @@ def main():
 
 if __name__ == "__main__":
     main() 
+    
+    
+ 
