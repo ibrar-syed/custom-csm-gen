@@ -1,4 +1,4 @@
-# CSM RTX8000 Fork – Conversational Speech Modeling (Custom Setup)
+# Custom-csm-gen; CSM Fork – Conversational Speech Modeling (Custom Setup)
 
 This is a customized fork of [SesameAILabs/CSM](https://github.com/SesameAILabs/csm), designed for generating high-quality, speaker-conditioned speech using short reference audio samples and input text.
 
